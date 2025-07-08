@@ -23,10 +23,12 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
      ```sh
      source venv/bin/activate
      ```
-   - No Windows, abra um terminal no modo administrador e execute o comando:
+    #### Se for a primeira vez criando um ambiente virtual, execute o seguinte passo:
+   - No Windows, abra um terminal (PowerShell) no modo administrador e execute o comando:
    ```sh
    Set-ExecutionPolicy RemoteSigned
    ```
+   - Em seguida, utilize esse próximo comando para ativar o ambiente virtual:
 
      ```sh
      venv\Scripts\activate
